@@ -52,5 +52,5 @@ For e.g.
 * Usage of reusable design patterns
 * Flexible, Extensible, Maintainable and testable code
 * For Java, testing of your program can be done using
- * main function (public static void main (String [] args) or via
- * JUnit test cases
+  * main function (public static void main (String [] args) or via
+  * JUnit test cases
