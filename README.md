@@ -21,40 +21,30 @@ They have defined different discount slabs for the purchase amount
 
 Discount Rates for Regular Customers 
 
-**Purchase Amount** &nbsp;|&nbsp;**Discount**
-
-0-5000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;nil
-
-5001-10000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;10%
- 
-More than 10000&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;20%
+| Purchase Amount  | Discount   |
+| ------------- | ------------- |
+| 0-5000        | nil           |
+| 5001-10000    | 10%           |
+| More than 10000    | 20%           |
 
 Discount Rates for Premium Customers 
 
-**Purchase Amount** &nbsp;|&nbsp;**Discount**
-
-0-5000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;10%
-
-5001-10000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;20%
- 
-More than 10000&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;30%
+| Purchase Amount  | Discount   |
+| ------------- | ------------- |
+| 0-5000        | 10%           |
+| 5001-10000    | 20%           |
+| More than 10000 | 30%           |
 
 For e.g.
 
-**Customer Type**&nbsp;&nbsp;|&nbsp;**Purchase Amount**&nbsp;|&nbsp;**Bill Amount**
-
-Regular&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;5000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;5000
-
-Regular&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;10000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;9500 (5000 + 4500)
-
-Regular&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;15000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;5000 (5000 + 4500 + 4000)
-
-
-Premium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;5000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;4500
-
-Premium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;10000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;8500 (4500 + 4000)
-
-Premium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;15000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;12000 (4500 + 4000 + 3500)
+| **Customer Type**		|	**Purchase Amount**	|	**Bill Amount** |
+| -------------------|---------------------|-----------------|
+| Regular					|	5000				|	5000 |
+| Regular					|	10000				|	9500 (5000 + 4500) |
+| Regular					|	15000				|	5000 (5000 + 4500 + 4000) |
+| Premium					|	5000				|	4500 |
+| Premium					|	10000				|	8500 (4500 + 4000) |
+| Premium					|	15000				|	12000 (4500 + 4000 + 3500) |
 
 
 * Structure of your classes and their relationships
@@ -64,4 +54,3 @@ Premium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;15000&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
 * For Java, testing of your program can be done using
  * main function (public static void main (String [] args) or via
  * JUnit test cases
-  
