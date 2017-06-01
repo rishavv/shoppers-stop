@@ -4,8 +4,9 @@ This repo is a solution to the below problem.
 
 It has purposefully been made independent of any external library.
 
-Run BillingClient.java to execute tests.
+The core data structure used here is a TreeMap to store the discount slabs
 
+Run BillingClient.java to execute tests.
 
 **Question**
 
@@ -52,5 +53,5 @@ For e.g.
 * Usage of reusable design patterns
 * Flexible, Extensible, Maintainable and testable code
 * For Java, testing of your program can be done using
-  * main function (public static void main (String [] args) or via
-  * JUnit test cases
+    * main function (public static void main (String [] args) or via
+    * JUnit test cases
